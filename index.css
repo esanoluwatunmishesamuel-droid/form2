@@ -1,0 +1,73 @@
+body{
+    background-color: grey;
+     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header{
+    margin-top: 30px;
+}
+.parent{
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+.names{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+    margin-left:10px ;
+
+}
+.input{
+    display: flex;
+    gap: 40px;
+    margin-left: 10px;
+}
+.email{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.password{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.inputedit{
+    width: 100px;
+
+}
+.inputedit2{
+    width: 250px;
+
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 5px;
+}
+.end2{
+    width: 270px;
+    height: 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.blue{
+    background-color: blue;
+    color: antiquewhite;
+}
+.log{
+    color: blue;
+}
+.account{
+    margin-top: 20px;
+    text-align: center;
+}
+.details{
+    margin-left: 10px;
+}
